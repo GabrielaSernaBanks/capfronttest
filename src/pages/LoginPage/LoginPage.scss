@@ -1,0 +1,77 @@
+@import "../../styles/partials/globals";
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/variables";
+@import "../../styles/partials/typography.scss";
+
+
+.loginIcon {
+  height: 400px;
+  width: 300px;
+  padding-left: 1rem;
+  margin-top: 0;
+}
+
+
+.login-title{
+  margin-top: -8rem;
+}
+
+.login-header {
+  text-align: center;
+  color: $dark-gray;
+}
+
+.loginpage {
+  margin-top: 4rem;
+  width: 100%;
+
+  &__email {
+    border-radius: 10px;
+    height: 2rem;
+    width: 85%;
+    margin: 1rem;
+    border: 2px solid $yellow;
+  }
+
+  &__password {
+    border-radius: 10px;
+    height: 2rem;
+    width: 85%;
+    margin: 1rem;
+    border: 2px solid $yellow;
+  }
+}
+
+.login__buttons-submit {
+  width: 75%;
+  margin-top: 0.75rem;
+  margin-left: 2.5rem;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid $yellow;
+  color: $dark-gray;
+  background-color: $yellow;
+
+  &:hover{
+    cursor: pointer;
+    background-color: $gray;
+    transition: 0.5s ease;
+  }
+}
+.login__buttons-goback {
+  width: 75%;
+  margin-top: 0.75rem;
+  margin-left: 2.5rem;
+  height: 2rem;
+  border-radius: 10px;
+  color: $dark-gray;
+  border: none;
+  background-color: white;
+
+  &:hover{
+    cursor: pointer;
+    background-color: $gray;
+    transition: 0.5s ease;
+  }
+}

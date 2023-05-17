@@ -1,0 +1,24 @@
+@import "../../../styles/partials/globals";
+@import "../../../styles/partials/mixins";
+@import "../../../styles/partials/variables";
+@import "../../../styles/partials/typography.scss";
+
+
+.therapisthome{
+  background-color: $yellow;
+  padding-bottom: 1rem;
+}
+
+.therapisthome__header{
+  margin: 0 1rem;
+  padding-top: 1rem;
+  color: $dark-gray;
+  font-size: 1.5rem;
+  font-family: 'Yeseva';
+  font-weight: 200;
+}
+
+.therapisthome__post{
+  margin: 0 1rem;
+  
+}
